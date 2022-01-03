@@ -52,6 +52,9 @@ This script does the following:
 2. Runs unit tests in verbose mode
 3. Runs `main.py`, which runs Task 1 and Task 2 as separate pipelines sequentially
 
+The pipelines output the resulting files into the `output` directory, named after the tasks the pipelines were for, for example for Task 1:
+`task1-00000-of-00001.json.gz`, and `task2-00000-of-00001.json.gz` for the Task 2 pipeline.
+
 ### Requirements Checklist
 | Requirement | Status | Notes | 
 | --- | --- | --- |
